@@ -8,6 +8,7 @@ import Services from "./Pages/Services";
 import NavBar from "./Component/NavBar";
 import Products from "./Pages/Products";
 import ProductDetails from "./Pages/ProductDetails";
+import Parent from "./Component/Parent";
 
 const App = () => {
   console.log("asdf");
@@ -27,6 +28,7 @@ const App = () => {
           element={<ProductDetails />}
         />
       </Routes>
+      <Parent/>
     </React.Fragment>
   );
 };
