@@ -9,10 +9,11 @@ import NavBar from "./Component/NavBar";
 import Products from "./Pages/Products";
 import ProductDetails from "./Pages/ProductDetails";
 import Parent from "./Component/Parent";
+import CounterReducer from "./Component/CounterReducer";
 
 const App = () => {
   console.log("asdf");
-  
+
   return (
     <React.Fragment>
       <NavBar />
@@ -28,7 +29,8 @@ const App = () => {
           element={<ProductDetails />}
         />
       </Routes>
-      <Parent/>
+      {/* <Parent /> */}
+      <CounterReducer />
     </React.Fragment>
   );
 };
