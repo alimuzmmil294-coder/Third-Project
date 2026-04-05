@@ -19,7 +19,7 @@ const reducer = (state, action) => {
     case "reset":
       return {
         ...state,
-        count: state.count =0,
+        count: (state.count = 0),
       };
     case "Increase By 10":
       return {

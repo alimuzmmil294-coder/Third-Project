@@ -8,8 +8,11 @@ import Services from "./Pages/Services";
 import NavBar from "./Component/NavBar";
 import Products from "./Pages/Products";
 import ProductDetails from "./Pages/ProductDetails";
-import Parent from "./Component/Parent";
 import CounterReducer from "./Component/CounterReducer";
+import Parent from "./Practice/Parents";
+import Parents from "./Practice/Parents";
+import SearchBar from "./Component/SearchBar";
+import UploadFile from "./Component/UploadFile";
 
 const App = () => {
   console.log("asdf");
@@ -30,7 +33,10 @@ const App = () => {
         />
       </Routes>
       {/* <Parent /> */}
-      <CounterReducer />
+      <Parents />
+      {/* <CounterReducer /> */}
+      {/* <SearchBar /> */}
+      {/* <UploadFile /> */}
     </React.Fragment>
   );
 };
